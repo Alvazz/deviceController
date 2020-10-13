@@ -32,5 +32,5 @@ xdotool type "$sshrun"
 xdotool key Return
 
 sleep 0.5
-xdotool type 'htop'
+xdotool type 'htop --sort-key=PERCENT_CPU'
 xdotool key Return
